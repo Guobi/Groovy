@@ -2,8 +2,9 @@ String[] testArray = ["A", "B", "C"]
 println testArray.length
 println testArray.class
 
-
-def myList =  ["A", "B", "C"]
+def myList =  ["https://master-1.dev.jenkins.aws.autodesk.com",
+                "https://master-5.jenkins.autodesk.com",
+                "https://master-1.jenkins.autodesk.com"]
 println myList.size()
 println myList.class
 myList.each
@@ -11,7 +12,7 @@ myList.each
     try
     {
         println it
-        4/0
+        // 4/0
     }
     // catch(all)
     // catch (Exception e)
